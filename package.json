@@ -1,0 +1,22 @@
+{
+  "name": "study",
+  "version": "0.0.1",
+  "description": "학습 프로젝트",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkdlxm457/html.git"
+  },
+  "keywords": [
+    "html-study"
+  ],
+  "author": "김대현",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkdlxm457/html/issues"
+  },
+  "homepage": "https://github.com/tkdlxm457/html#readme"
+}
