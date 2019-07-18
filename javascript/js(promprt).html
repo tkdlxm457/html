@@ -1,20 +1,24 @@
 <!DOCTYPE HTML>
 <html>
-    <hrad>
+    <head>
         <meta charset="utf-8"/>
-    </hrad>
+    </head>
     <body>
         <script>
-            var id = prompt("아디를 입력해주세요."); // 먼저 실행이되고 입력창에 값을 입력하면 그 값이 id가 됨
+            // 입력된 아이디가 KKK라면...
+            var id = prompt("아디를 입력해주세요."); 
             if(id == "kkk") {
-                var password = prompt("비밀번호를 입력해주세요"); // id가 일치하면 실행
+                // 입력된 비밀번호가 111이라면...
+                var password = prompt("비밀번호를 입력해주세요"); 
                 if(password == "1111") {
-                    alert("로그인 되었습니다."); // password까지 일치하면 실행
-                }   else {
-                        alert("비밀번호가 다릅니다."); // password가 일치하지 않으면 실행
+                    alert("로그인 되었습니다.");
+                } 
+                else {
+                    alert("비밀번호가 다릅니다.");
                 }
-            }   else {   
-                    alert("아이디가 일치하지 않습니다."); // id가 일치하지 않으면 실행
+            } 
+            else {   
+                alert("아이디가 일치하지 않습니다.");
             }
         </script>
     </body>
