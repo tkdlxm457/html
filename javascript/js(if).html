@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <hrad>
+        <meta charset="utf-8"/>
+    </hrad>
+    <body>
+        <script>
+            if (true) {
+                alert ('result : true'); // if ()안에 true이기 때문에 alert안에 true가 들어와서 실행이 됨
+            }
+            if (false) {
+                alert ('result : true'); // 실행이 안됨
+            }
+            if (true) {
+                alert (1);
+                alert (2);
+                alert (3);
+                alert (4);
+            }
+            alert (5); // 실행하면 1 > 2 > 3 > 4 > 5 가 나오고 실행이 끝남
+            if (false) {
+                alert (1);
+                alert (2);
+                alert (3);
+                alert (4);
+            }
+            alert (5); // 실행하면 5만 나오고 끝
+        </script>
+    </body>
+</html>

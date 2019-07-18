@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <hrad>
+        <meta charset="utf-8"/>
+    </hrad>
+    <body>
+        <script>
+            if(!true && !true){
+                alert(1); // 좌항은 false가 되고 우항도 false가 돼서 실행x
+            }
+            if(!false && !true){
+                alert(2); // 좌항은 true가 되고 우항은 false가 돼서 실행x
+            }
+            if(!true && !false){
+                alert(3); // 좌항은 false가 되고 우항은 true가 돼서 실행x
+            }
+            if(!false && !false){
+                alert(4); // 좌항은 true가 되고 우항도 true가 돼서 실행o
+            }
+        </script>
+    </body>
+</html>
