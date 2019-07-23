@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        javascript.num
+    </title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        fscope(); // lv라는 변수가 함수안에서 만들어짐
+
+        function fscope() {
+            var vscope = "local";
+            var lv = "local variables";
+            alert(lv);
+            alert(vscope);
+        }
+
+        function 사칙연산() {
+            var b = {
+                add: function (a, b) {
+                    return a + b;
+                },
+                minus: function (a, b) {
+                    return a - b;
+                }
+            }
+
+            return b;
+        }
+
+        var c = 사칙연산();
+
+        c.add(1, 2);
+
+        var vscope = "global";
+        window.alert(lv); // undefind가 실행 그이유는 lv는지역변수이 때문에 함수내에서만 사용
+
+    </script>
+</body>
+
+</html>
