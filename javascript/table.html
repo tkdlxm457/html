@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>게시판</title>
+    <meta charset="utf-8" />
+    <script src='table.js'></script>
+</head>
+<style>
+    table {
+        width: 75%;
+        text-align: center
+    }
+
+    #thead {
+        background-color: grey;
+    }
+
+    button {
+        float: right;
+    }
+</style>
+
+
+
+<body onload='dynamicMakeRow()'>
+    <table id="practice" border="15">
+
+        <head>
+            <h2>
+                문의사항
+            </h2>
+        </head>
+        <tr id="thead">
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성일</th>
+        </tr>
+    </table>
+    <button type="button">목록</button>
+</body>
+
+
+
+</html>
