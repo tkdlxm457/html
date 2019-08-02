@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>json</title>
+        <script src='js_json2.js'></script>
+    </head>
+    <body>
+        <p id = "demo"></p>
+        <script>
+                var txt = '{"name":"대현", "age":23, "city":"서울"}'
+                var obj = JSON.parse(txt);
+                document.getElementById("demo").innerHTML = obj.name + ", " + obj.age + ", " + obj.city;
+        </script>
+    </body>
+
+</html>
